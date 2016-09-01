@@ -1,0 +1,44 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+.logo{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    z-index: 997;
+}
+.vista {
+    position: relative;
+    z-index: 997;
+    top: 0;
+    width: 40%;
+    height: 60%;
+    margin-top: 15%;
+    margin-left: 30%;
+    background-color: rgba(255,255,255,0.3);
+
+}
+.mg-rg {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    z-index: 997;
+}
+.slider .indicators {
+    opacity: 0 !important;
+}
+.atras{
+    background-color: transparent !important;
+    color: transparent !important;
+}
