@@ -21,7 +21,7 @@ $(document).ready(function(){
         card += '<span class="card-title"><h4>' + trabajos[i].nombre + '</h4></span>';
         card += '<p class="flow-text">'+ trabajos[i].descripcion+'</p>';
         card += '</div>';
-        card += '<div class="card-action">';
+        card += '<div class="card-action derecha2">';
         card += '<a class="secundario" href="mailto:luisfvargas@gmail.com?subject=' + trabajos[i].nombre + '">Aplica!</a>';
         card += '</div>';
         card += '</div>';

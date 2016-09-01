@@ -155,6 +155,6 @@ header .material-icons{
         display: inline-block;
     }
     .grow2:hover {
-        width: 200%;
+        width: 150%;
     }
 }
