@@ -115,12 +115,12 @@ header .material-icons{
     }
 }
 
-@media only screen and (min-width : 1200px) {
+@media only screen and (min-width : 1500px) {
     .grande {
         font-size: 3em;
     }
     .medio{
-        font-size: 1.4em;
+        font-size: 1.3em;
     }
 }
 @media only screen and (min-width : 1000px) {
@@ -129,7 +129,7 @@ header .material-icons{
     }
     .grow {
         padding: 5px 5px 5px 5px;
-        width: 10%;
+        width: 15%;
         height: 100%;
         float: left;
         position: fixed;
@@ -140,7 +140,7 @@ header .material-icons{
         display: inline-block;
     }
     .grow:hover {
-        width: 75%;
+        width: 70%;
     }
     .grow2 {
         padding: 5px 5px 5px 5px;
