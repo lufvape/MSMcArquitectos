@@ -13,6 +13,16 @@ $('.fa-youtube').click(function(){
     window.open("https://www.youtube.com/channel/UCTprJmG3zLkwE_3RjqoMVgQ");
 });
 
+$('.grow').on('mouseover', function() {
+    $('.logo').css('max-width', '10%');
+    $('.texto-menu').css('visibility', 'visible');
+
+});
+$('.grow').on('mouseout', function() {
+    $('.logo').css('max-width', '75%');
+});
+
+
 function initMap() {
     var myLatLng = {lat: 4.447042, lng: -75.243069};
 
