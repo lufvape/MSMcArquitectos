@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6d7d9573-b498-49c5-a954-0b6765c2662a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/todo.css" afterPath="$PROJECT_DIR$/css/todo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/todo.js" afterPath="$PROJECT_DIR$/js/todo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/contacto.html" afterPath="$PROJECT_DIR$/templates/contacto.html" />
     </list>
     <ignored path="MSMcArquitectos.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="contacto.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contacto.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/contacto.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38312694">
+            <state vertical-scroll-proportion="-20.625">
               <caret line="33" column="70" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#ul#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -47,21 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todo.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="todo.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/todo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-49.458332">
-              <caret line="158" column="12" selection-start-line="158" selection-start-column="12" selection-end-line="158" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="naavegacion.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/naavegacion.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.25">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="20" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.9303405">
+              <caret line="159" column="1" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -86,8 +74,8 @@
         <option value="$PROJECT_DIR$/naavegacion.html" />
         <option value="$PROJECT_DIR$/css/todo2.css" />
         <option value="$PROJECT_DIR$/js/todo.js" />
-        <option value="$PROJECT_DIR$/css/todo.css" />
         <option value="$PROJECT_DIR$/templates/contacto.html" />
+        <option value="$PROJECT_DIR$/css/todo.css" />
       </list>
     </option>
   </component>
@@ -325,14 +313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/naavegacion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="20" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/todo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -341,21 +321,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/todo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-49.458332">
-          <caret line="158" column="12" selection-start-line="158" selection-start-column="12" selection-end-line="158" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/contacto.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38312694">
+        <state vertical-scroll-proportion="-20.625">
           <caret line="33" column="70" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
           <folding>
             <element signature="n#style#0;n#div#0;n#ul#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naavegacion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20897833">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="20" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/todo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9303405">
+          <caret line="159" column="1" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
