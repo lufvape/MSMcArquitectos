@@ -41,7 +41,10 @@ header, main, footer {
     text-align: right !important;
 }
 .izquierda{
-    margin-left: 10%;
+    margin-left: 0%;
+}
+.izquierda2{
+    margin-left: 30%;
 }
 .medium{
     font-size: 3rem !important;
@@ -133,6 +136,12 @@ main {
 @media only screen and (min-width : 1000px) {
     .menu-movil {
         color: transparent;
+    }
+    .izquierda{
+        margin-left: 10%;
+    }
+    .izquierda2{
+        margin-left: 0%;
     }
     .grow {
         padding: 5px 5px 5px 5px;
