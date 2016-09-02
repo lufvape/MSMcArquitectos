@@ -52,7 +52,7 @@ header, main, footer {
 blockquote{
     border-left-color: #145C9E !important;
 }
-body, .page-footer{
+body, .page-footer, .cardn{
     background-color: #FCFFFF !important;
 }
 h1, h2, h3, h4, h5, h6, p, .blue2, .blue-text{
