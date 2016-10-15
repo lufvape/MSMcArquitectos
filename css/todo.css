@@ -3,15 +3,19 @@
         padding-left: 120px;
     }
 }
+
 .logo{
     display: flex;
     position: relative;
     margin:auto auto auto auto;
-    max-width: 75%;
+    max-width: 60%;
     height: auto;
 }
-.side-nav{
-    margin-left: 2%;
+.logo2{
+    position: relative;
+    margin:auto auto auto auto;
+    max-width: 25%;
+    height: auto;
 }
 
 header, main, footer {
@@ -118,6 +122,13 @@ body {
 main {
     flex: 1 0 auto;
 }
+.menu-movil{
+    max-width: 7%;
+}
+.interno{
+    display: inline-block;
+    margin-top: 20%;
+}
 
 @media only screen and (max-width : 992px) {
     header, main, footer {
@@ -134,43 +145,14 @@ main {
     }
 }
 @media only screen and (min-width : 1000px) {
-    .menu-movil {
-        color: transparent;
-    }
     .izquierda{
         margin-left: 10%;
     }
     .izquierda2{
         margin-left: 0%;
     }
-    .grow {
-        padding: 5px 5px 5px 5px;
-        width: 15%;
-        height: 100%;
-        float: left;
-        position: fixed;
-        transition: width 1.5s;
-        -webkit-transition: width 1.5s;
-        text-align: center;
-        overflow: hidden;
-        display: inline-block;
-    }
-    .grow:hover {
-        width: 70%;
-    }
-    .grow2 {
-        padding: 5px 5px 5px 5px;
-        width: 100%;
-        height: 100%;
-        float: left;
-        position: fixed;
-        transition: width 1.5s;
-        -webkit-transition: width 1.5s;
-        text-align: center;
-        overflow: hidden;
-        display: inline-block;
-    }
-    .grow2:hover {
-        width: 150%;
+    .menu-movil{
+        max-width: 7%;
+        margin-left: -10%;
     }
 }
