@@ -6,7 +6,7 @@ var proyectos = [
         id: "proyecto1",
         nombre:"Casa Osorio",
         descripcion:"Descripción1",
-        tipo:"comercial",
+        tipo:"urbanismo",
         escala:"500",
         estado:"terminado",
         imagenes:[
@@ -17,9 +17,9 @@ var proyectos = [
         id: "proyecto2",
         nombre:"Filadelfia",
         descripcion:" consectetur nulla libero eget turpis. Sed et malesuada nisl, ac rutrum lacus. Aenean sagittis, nisi non mollis luctus, velit ipsum imperdiet enim, eu pulvinar nisl tortor a est. Ut luctus et est a congue. Aenean sollicitudin ante sed nulla porttitor porta. Nunc bibendum tempor urna, eu dignissim m",
-        tipo:"salud",
-        escala:"500",
-        estado:"terminado",
+        tipo:"urbanismo",
+        escala:"530",
+        estado:"idea",
         imagenes:[
             "https://www.dropbox.com/s/p62xexbhi8hvpbj/1.jpg?raw=1",
             "https://www.dropbox.com/s/lqlhzjmyrj2agvc/2.jpg?raw=1",
@@ -32,9 +32,9 @@ var proyectos = [
         id: "proyecto3",
         nombre:"Florida III",
         descripcion:"Descripción3",
-        tipo:"salud",
-        escala:"500",
-        estado:"terminado",
+        tipo:"urbanismo",
+        escala:"400",
+        estado:"construccion",
         imagenes:[
             "https://www.dropbox.com/s/gsdys69gidr63zz/1.jpg?raw=1",
             "https://www.dropbox.com/s/dn3rucszmsk9z5u/2.jpg?raw=1",
@@ -49,7 +49,7 @@ var proyectos = [
         id: "proyecto4",
         nombre:"Golf club edificio",
         descripcion:"Descripción1",
-        tipo:"comercial",
+        tipo:"casas",
         escala:"500",
         estado:"terminado",
         imagenes:[
@@ -65,7 +65,7 @@ var proyectos = [
         id: "proyecto5",
         nombre:"RFP Medical",
         descripcion:" consectetur nulla libero eget turpis. Sed et malesuada nisl, ac rutrum lacus. Aenean sagittis, nisi non mollis luctus, velit ipsum imperdiet enim, eu pulvinar nisl tortor a est. Ut luctus et est a congue. Aenean sollicitudin ante sed nulla porttitor porta. Nunc bibendum tempor urna, eu dignissim m",
-        tipo:"salud",
+        tipo:"casas",
         escala:"500",
         estado:"terminado",
         imagenes:[
@@ -93,7 +93,7 @@ var proyectos = [
         id: "proyecto6",
         nombre:"RFP Torre cll 60",
         descripcion:"Descripción3",
-        tipo:"salud",
+        tipo:"edificios",
         escala:"500",
         estado:"terminado",
         imagenes:[
@@ -106,8 +106,7 @@ var proyectos = [
 
 ]
 
-var comercial =[];
-var salud =[];
+var equipamiento =[];
 var urbanismo =[];
 var casas =[];
 var edificios =[];
@@ -122,27 +121,25 @@ var terminado =[];
 
 function pcomer(){
     for(i=0; i<proyectos.length; i++){
-        if(proyectos[i].tipo == "comercial"){
-            comercial.push(proyectos[i]);
+        if(proyectos[i].tipo == "equipamiento"){
+            equipamiento.push(proyectos[i]);
         }
     }
-    return comercial;
+    return equipamiento;
 }
 
-function psalud(){
-    for(i=0; i<proyectos.length; i++){
-        if(proyectos[i].tipo == "salud"){
-            salud.push(proyectos[i]);
-        }
-    }
-    return salud;
-}
 function purba(){
+
     for(i=0; i<proyectos.length; i++){
         if(proyectos[i].tipo == "urbanismo"){
             urbanismo.push(proyectos[i]);
         }
     }
+
+    urbanismo.sort(function(a,b){
+      return a.escala- b.escala;
+    })
+
     return urbanismo;
 }
 
@@ -226,7 +223,6 @@ function pter(){
 
 $(document).ready(function(){
     pcomer();
-    psalud();
     pcasas();
     purba();
     pedif();
@@ -238,30 +234,30 @@ $(document).ready(function(){
     pcons();
     pter();
 
-    for (i=0; i<salud.length; i++){
+    for (i=0; i<equipamiento.length; i++){
         var card = "";
         card += '<li>';
         card += '<div class="card">';
         card += '<div class="card-image">';
-        card += '<img class="activator" src="' + salud[i].imagenes[0] + '">';
+        card += '<img class="activator" src="' + equipamiento[i].imagenes[0] + '">';
         card += '</div>';
         card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ salud[i].id + '">' + salud[i].nombre + '</a>';
+        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ equipamiento[i].id + '">' + equipamiento[i].nombre + '</a>';
         card += '</div>';
         card += '</div>';
         card += '</li>';
 
-        card += '<div id="modal' + salud[i].id + '" class="modal bottom-sheet">';
+        card += '<div id="modal' + equipamiento[i].id + '" class="modal bottom-sheet">';
         card += '<div class="modal-content">';
         card += '<div class="slider fullscreen">';
         card += '<ul class="slides">';
-        for (j=0; j<salud[i].imagenes.length; j++){
+        for (j=0; j<equipamiento[i].imagenes.length; j++){
             card += '<li>';
-            card += '<img src="' + salud[i].imagenes[j] + '">';
+            card += '<img src="' + equipamiento[i].imagenes[j] + '">';
             card += '</li>';
         }
         card += '</ul>';
-        card += '<p class="medio center-align derecha izquierda flow-text blue2">' + salud[i].descripcion +  '</p>';
+        card += '<p class="medio center-align derecha izquierda flow-text blue2">' + equipamiento[i].descripcion +  '</p>';
         card += '</div>';
         card += '</div>';
         card += '<div class="modal-footer">';
@@ -269,56 +265,24 @@ $(document).ready(function(){
         card += '</div>';
         card += '</div>';
 
-
-        $('.salud').append(card);
-    }
-
-    for (i=0; i<comercial.length; i++){
-        var card = "";
-        card += '<li>';
-        card += '<div class="card">';
-        card += '<div class="card-image">';
-        card += '<img class="activator" src="' + comercial[i].imagenes[0] + '">';
-        card += '</div>';
-        card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ comercial[i].id + '">' + comercial[i].nombre + '</a>';
-        card += '</div>';
-        card += '</div>';
-        card += '</li>';
-
-        card += '<div id="modal' + comercial[i].id + '" class="modal bottom-sheet">';
-        card += '<div class="modal-content">';
-        card += '<div class="slider fullscreen">';
-        card += '<ul class="slides">';
-        for (j=0; j<comercial[i].imagenes.length; j++){
-            card += '<li>';
-            card += '<img src="' + comercial[i].imagenes[j] + '">';
-            card += '</li>';
-        }
-        card += '</ul>';
-        card += '<p class="medio center-align derecha izquierda flow-text blue2">' + comercial[i].descripcion +  '</p>';
-        card += '</div>';
-        card += '</div>';
-        card += '<div class="modal-footer">';
-        card += '<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat white-text vista"><i class="material-icons large">close</i></a>';
-        card += '</div>';
-        card += '</div>';
-
-        $('.comercial').append(card);
+        $('.equipamiento').append(card);
     }
 
     for (i=0; i<urbanismo.length; i++){
+
         var card = "";
-        card += '<li>';
+        card += '<div class="col s12 m4">';
         card += '<div class="card">';
         card += '<div class="card-image">';
         card += '<img class="activator" src="' + urbanismo[i].imagenes[0] + '">';
         card += '</div>';
         card += ' <div class="card-reveal">';
         card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ urbanismo[i].id + '">' + urbanismo[i].nombre + '</a>';
+        card += ' <p class="flow-text blue2 medio"> Escala: ' + urbanismo[i].escala + '</p>';
+        card += ' <p class="flow-text blue2 medio"> Estado: ' + urbanismo[i].estado + '</p>';
         card += '</div>';
         card += '</div>';
-        card += '</li>';
+        card += '</div>';
 
         card += '<div id="modal' + urbanismo[i].id + '" class="modal bottom-sheet">';
         card += '<div class="modal-content">';
