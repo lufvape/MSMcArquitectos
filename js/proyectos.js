@@ -49,7 +49,7 @@ var proyectos = [
         id: "proyecto4",
         nombre:"Golf club edificio",
         descripcion:"Descripción1",
-        tipo:"casas",
+        tipo:"casa",
         escala:"500",
         estado:"terminado",
         imagenes:[
@@ -65,7 +65,7 @@ var proyectos = [
         id: "proyecto5",
         nombre:"RFP Medical",
         descripcion:" consectetur nulla libero eget turpis. Sed et malesuada nisl, ac rutrum lacus. Aenean sagittis, nisi non mollis luctus, velit ipsum imperdiet enim, eu pulvinar nisl tortor a est. Ut luctus et est a congue. Aenean sollicitudin ante sed nulla porttitor porta. Nunc bibendum tempor urna, eu dignissim m",
-        tipo:"casas",
+        tipo:"casa",
         escala:"500",
         estado:"terminado",
         imagenes:[
@@ -93,7 +93,7 @@ var proyectos = [
         id: "proyecto6",
         nombre:"RFP Torre cll 60",
         descripcion:"Descripción3",
-        tipo:"edificios",
+        tipo:"edificio",
         escala:"500",
         estado:"terminado",
         imagenes:[
@@ -125,6 +125,11 @@ function pcomer(){
             equipamiento.push(proyectos[i]);
         }
     }
+
+    equipamiento.sort(function(a,b){
+        return a.escala- b.escala;
+    })
+
     return equipamiento;
 }
 
@@ -149,6 +154,11 @@ function pcasas(){
             casas.push(proyectos[i]);
         }
     }
+
+    casas.sort(function(a,b){
+        return a.escala- b.escala;
+    })
+
     return casas;
 }
 function pedif(){
@@ -157,6 +167,11 @@ function pedif(){
             edificios.push(proyectos[i]);
         }
     }
+
+    edificios.sort(function(a,b){
+        return a.escala- b.escala;
+    })
+
     return edificios;
 }
 
@@ -236,7 +251,7 @@ $(document).ready(function(){
 
     for (i=0; i<equipamiento.length; i++){
         var card = "";
-        card += '<li>';
+        card += '<div class="col s12 m4">';
         card += '<div class="card">';
         card += '<div class="card-image">';
         card += '<img class="activator" src="' + equipamiento[i].imagenes[0] + '">';
@@ -245,7 +260,7 @@ $(document).ready(function(){
         card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ equipamiento[i].id + '">' + equipamiento[i].nombre + '</a>';
         card += '</div>';
         card += '</div>';
-        card += '</li>';
+        card += '</div>';
 
         card += '<div id="modal' + equipamiento[i].id + '" class="modal bottom-sheet">';
         card += '<div class="modal-content">';
@@ -308,7 +323,7 @@ $(document).ready(function(){
 
     for (i=0; i<edificios.length; i++){
         var card = "";
-        card += '<li>';
+        card += '<div class="col s12 m4">';
         card += '<div class="card">';
         card += '<div class="card-image">';
         card += '<img class="activator" src="' + edificios[i].imagenes[0] + '">';
@@ -317,7 +332,7 @@ $(document).ready(function(){
         card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ edificios[i].id + '">' + edificios[i].nombre + '</a>';
         card += '</div>';
         card += '</div>';
-        card += '</li>';
+        card += '</div>';
 
         card += '<div id="modal' + edificios[i].id + '" class="modal bottom-sheet">';
         card += '<div class="modal-content">';
@@ -342,7 +357,7 @@ $(document).ready(function(){
 
     for (i=0; i<casas.length; i++){
         var card = "";
-        card += '<li>';
+        card += '<div class="col s12 m4">';
         card += '<div class="card">';
         card += '<div class="card-image">';
         card += '<img class="activator" src="' + casas[i].imagenes[0] + '">';
@@ -351,7 +366,7 @@ $(document).ready(function(){
         card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ casas[i].id + '">' + casas[i].nombre + '</a>';
         card += '</div>';
         card += '</div>';
-        card += '</li>';
+        card += '</div>';
 
         card += '<div id="modal' + casas[i].id + '" class="modal bottom-sheet">';
         card += '<div class="modal-content">';
