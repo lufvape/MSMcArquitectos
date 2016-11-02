@@ -254,12 +254,10 @@ $(document).ready(function(){
         card += '<div class="col s12 m4">';
         card += '<div class="card">';
         card += '<div class="card-image">';
-        card += '<img class="activator" src="' + equipamiento[i].imagenes[0] + '">';
-        card += '</div>';
-        card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ equipamiento[i].id + '">' + equipamiento[i].nombre + '</a>';
+        card += '<img src="' + equipamiento[i].imagenes[0] + '">';
         card += '</div>';
         card += '</div>';
+        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ equipamiento[i].id + '">' + equipamiento[i].nombre + '</a>';
         card += '</div>';
 
         card += '<div id="modal' + equipamiento[i].id + '" class="modal bottom-sheet">';
@@ -289,12 +287,10 @@ $(document).ready(function(){
         card += '<div class="col s12 m4">';
         card += '<div class="card">';
         card += '<div class="card-image">';
-        card += '<img class="activator" src="' + urbanismo[i].imagenes[0] + '">';
-        card += '</div>';
-        card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ urbanismo[i].id + '">' + urbanismo[i].nombre + '</a>';
+        card += '<img src="' + urbanismo[i].imagenes[0] + '">';
         card += '</div>';
         card += '</div>';
+        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ urbanismo[i].id + '">' + urbanismo[i].nombre + '</a>';
         card += '</div>';
 
         card += '<div id="modal' + urbanismo[i].id + '" class="modal bottom-sheet">';
@@ -324,12 +320,10 @@ $(document).ready(function(){
         card += '<div class="col s12 m4">';
         card += '<div class="card">';
         card += '<div class="card-image">';
-        card += '<img class="activator" src="' + edificios[i].imagenes[0] + '">';
-        card += '</div>';
-        card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ edificios[i].id + '">' + edificios[i].nombre + '</a>';
+        card += '<img src="' + edificios[i].imagenes[0] + '">';
         card += '</div>';
         card += '</div>';
+        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ edificios[i].id + '">' + edificios[i].nombre + '</a>';
         card += '</div>';
 
         card += '<div id="modal' + edificios[i].id + '" class="modal bottom-sheet">';
@@ -358,12 +352,10 @@ $(document).ready(function(){
         card += '<div class="col s12 m4">';
         card += '<div class="card">';
         card += '<div class="card-image">';
-        card += '<img class="activator" src="' + casas[i].imagenes[0] + '">';
-        card += '</div>';
-        card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ casas[i].id + '">' + casas[i].nombre + '</a>';
+        card += '<img src="' + casas[i].imagenes[0] + '">';
         card += '</div>';
         card += '</div>';
+        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ casas[i].id + '">' + casas[i].nombre + '</a>';
         card += '</div>';
 
         card += '<div id="modal' + casas[i].id + '" class="modal bottom-sheet">';

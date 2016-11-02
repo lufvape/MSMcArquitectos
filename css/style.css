@@ -42,3 +42,18 @@
     background-color: transparent !important;
     color: transparent !important;
 }
+
+@media only screen and (min-width : 1000px) {
+
+    .vista {
+        position: relative;
+        z-index: 997;
+        top: 0;
+        width: 40%;
+        height: 60%;
+        margin-top: 15%;
+        margin-left: 30%;
+        background-color: rgba(255,255,255,0.3);
+
+    }
+}

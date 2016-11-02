@@ -6,10 +6,10 @@ $('.collapsible').collapsible();
 
 $('.carousel.carousel-slider').carousel({full_width: true});
 
-$('.fa-facebook').click(function(){
+$('.fa-facebook-square').click(function(){
     window.open("https://www.facebook.com/saavedramccauslandarquitectos/?ref=bookmarks");
 });
-$('.fa-youtube').click(function(){
+$('.fa-youtube-square').click(function(){
     window.open("https://www.youtube.com/channel/UCTprJmG3zLkwE_3RjqoMVgQ");
 });
 

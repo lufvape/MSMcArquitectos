@@ -81,11 +81,11 @@ h1, h2, h3, h4, h5, h6, p, .blue2, .blue-text{
 }
 .medio{
     font-size: 1em !important;
-    font-weight: 100;
+
 }
 
 .centro-fijo{
-    margin-top: -5%;
+    margin-top: 0%;
     position: fixed;
     width: 100%;
     z-index: 998;
@@ -154,18 +154,18 @@ nav{
     font-weight: 100;
     line-height: 1rem;
     font-size: 0.75rem;
-    color: #10142d !important;
+    color: whitesmoke !important;
 }
 .small2{
     font-size: 0.75rem;
 }
 
-.tabs{
-    background-color: #006992;
+.inmodes{
+    display: none;
 }
 
 .page-footer{
-    background-color: #F4F9FF !important;
+    background-color: #10142d !important;
 }
 
 .interno{
@@ -174,12 +174,20 @@ nav{
 }
 
 .iconos{
-    margin-top: -5%;
+    margin-top: -3%;
 }
 
 .button-collapse{
     display: flex !important;
     margin-right: 2%;
+}
+
+.fbk{
+    color: #3b5998 !important;
+}
+
+.ytb{
+    color: #e52d27 !important;
 }
 
 @media only screen and (max-width : 992px) {
@@ -194,7 +202,6 @@ nav{
     }
     .medio{
         font-size: 1.5em !important;
-        font-weight: 900;
     }
 
     .button-collapse{

@@ -135,13 +135,12 @@ $(document).ready(function(){
         card += '<div class="invisible col s12 m4">';
         card += '<div class="card">';
         card += '<div class="card-image">';
-        card += '<img class="activator" src="' + proyectos[i].imagenes[0] + '">';
-        card += '</div>';
-        card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger blue2 txt-abajo medio" href="#modal'+ proyectos[i].id + '">' + proyectos[i].nombre + '</a>';
+        card += '<img src="' + proyectos[i].imagenes[0] + '">';
         card += '</div>';
         card += '</div>';
-        card += proyectos[i].descripcion + '</div>';
+        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ proyectos[i].id + '">' + proyectos[i].nombre + '</a>';
+        card += '<p class="medio center-align derecha izquierda flow-text blue2 inmodes">' + proyectos[i].descripcion +  '</p>';
+        card +=  '</div>';
 
         card += '<div id="modal' + proyectos[i].id + '" class="modal bottom-sheet">';
         card += '<div class="modal-content">';
