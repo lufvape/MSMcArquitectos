@@ -93,7 +93,6 @@ img{
 .centro-fijo{
     position: relative;
     width: 100%;
-    z-index: 998;
     background-color: rgba(252,255,255,0.8);
     font-size: 1.2rem;
 }
@@ -175,7 +174,10 @@ nav{
 
 .interno{
     display: inline-block;
-    margin-top: 20%;
+}
+
+nav .nav-wrapper form, nav .nav-wrapper form .input-field{
+    height: 64px; !important;
 }
 
 .iconos{
