@@ -138,7 +138,7 @@ $(document).ready(function(){
         card += '<img class="activator" src="' + proyectos[i].imagenes[0] + '">';
         card += '</div>';
         card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ proyectos[i].id + '">' + proyectos[i].nombre + '</a>';
+        card += ' <a class="waves-effect waves-light modal-trigger blue2 txt-abajo medio" href="#modal'+ proyectos[i].id + '">' + proyectos[i].nombre + '</a>';
         card += '</div>';
         card += '</div>';
         card += proyectos[i].descripcion + '</div>';

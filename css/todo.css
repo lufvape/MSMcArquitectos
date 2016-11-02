@@ -23,10 +23,10 @@ header, main, footer {
 }
 
 .blue{
-    background-color: #2B2950 !important;
+    background-color: #10142d !important;
 }
 .secundario{
-    color: #145C9E !important;
+    color: #006992 !important;
 }
 .naveg{
     background-color: #F3E5F5 !important;
@@ -54,13 +54,13 @@ header, main, footer {
     font-size: 3rem !important;
 }
 blockquote{
-    border-left-color: #145C9E !important;
+    border-left-color: #006992 !important;
 }
-body, .page-footer, .cardn{
+body, .cardn{
     background-color: #FCFFFF !important;
 }
 h1, h2, h3, h4, h5, h6, p, .blue2, .blue-text{
-    color: #2E1C2B !important;
+    color: #10142d !important;
     text-align: justify;
 }
 #map{
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6, p, .blue2, .blue-text{
 }
 
 .btn{
-    background-color: #145C9E !important;
+    background-color: #006992 !important;
     text-align: center
 }
 .white-text{
@@ -81,6 +81,7 @@ h1, h2, h3, h4, h5, h6, p, .blue2, .blue-text{
 }
 .medio{
     font-size: 1em !important;
+    font-weight: 100;
 }
 
 .centro-fijo{
@@ -96,6 +97,15 @@ header .material-icons{
 }
 .modal{
     min-height: 100% !important;
+}
+
+.card-reveal{
+    opacity: 0.7 !important;
+}
+
+.txt-abajo{
+    margin-top: 30%;
+    margin-left: 30%;
 }
 
 .indicator-item.active {
@@ -123,9 +133,41 @@ body {
 main {
     flex: 1 0 auto;
 }
-.menu-movil{
-    max-width: 7%;
+
+nav{
+    background-color: #006992 !important;
 }
+
+#casas, #edificios, #urbanismo, #equipamiento{
+    margin-top: 5%;
+}
+
+.side-nav a img:hover{
+    background-color: #F4F9FF !important;
+}
+
+.side-nav a:hover{
+    background-color: transparent;
+}
+
+.txt-footer{
+    font-weight: 100;
+    line-height: 1rem;
+    font-size: 0.75rem;
+    color: #10142d !important;
+}
+.small2{
+    font-size: 0.75rem;
+}
+
+.tabs{
+    background-color: #006992;
+}
+
+.page-footer{
+    background-color: #F4F9FF !important;
+}
+
 .interno{
     display: inline-block;
     margin-top: 20%;
@@ -133,6 +175,11 @@ main {
 
 .iconos{
     margin-top: -5%;
+}
+
+.button-collapse{
+    display: flex !important;
+    margin-right: 2%;
 }
 
 @media only screen and (max-width : 992px) {
@@ -146,7 +193,16 @@ main {
         font-size: 3em;
     }
     .medio{
-        font-size: 1.3em !important;
+        font-size: 1.5em !important;
+        font-weight: 900;
+    }
+
+    .button-collapse{
+        margin-left: -45%;
+    }
+
+    main{
+        margin-left: -15%;
     }
 }
 @media only screen and (min-width : 1000px) {
@@ -156,11 +212,13 @@ main {
     .izquierda2{
         margin-left: 0%;
     }
-    .menu-movil{
-        max-width: 7%;
-        margin-left: -10%;
+    .button-collapse{
+        margin-left: -15%;
     }
     .centro-fijo{
         font-size: 2rem;
+    }
+    main{
+        margin-left: -15%;
     }
 }

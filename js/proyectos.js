@@ -257,7 +257,7 @@ $(document).ready(function(){
         card += '<img class="activator" src="' + equipamiento[i].imagenes[0] + '">';
         card += '</div>';
         card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ equipamiento[i].id + '">' + equipamiento[i].nombre + '</a>';
+        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ equipamiento[i].id + '">' + equipamiento[i].nombre + '</a>';
         card += '</div>';
         card += '</div>';
         card += '</div>';
@@ -292,9 +292,7 @@ $(document).ready(function(){
         card += '<img class="activator" src="' + urbanismo[i].imagenes[0] + '">';
         card += '</div>';
         card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ urbanismo[i].id + '">' + urbanismo[i].nombre + '</a>';
-        card += ' <p class="flow-text blue2 medio"> Escala: ' + urbanismo[i].escala + '</p>';
-        card += ' <p class="flow-text blue2 medio"> Estado: ' + urbanismo[i].estado + '</p>';
+        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ urbanismo[i].id + '">' + urbanismo[i].nombre + '</a>';
         card += '</div>';
         card += '</div>';
         card += '</div>';
@@ -329,7 +327,7 @@ $(document).ready(function(){
         card += '<img class="activator" src="' + edificios[i].imagenes[0] + '">';
         card += '</div>';
         card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ edificios[i].id + '">' + edificios[i].nombre + '</a>';
+        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ edificios[i].id + '">' + edificios[i].nombre + '</a>';
         card += '</div>';
         card += '</div>';
         card += '</div>';
@@ -363,7 +361,7 @@ $(document).ready(function(){
         card += '<img class="activator" src="' + casas[i].imagenes[0] + '">';
         card += '</div>';
         card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ casas[i].id + '">' + casas[i].nombre + '</a>';
+        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ casas[i].id + '">' + casas[i].nombre + '</a>';
         card += '</div>';
         card += '</div>';
         card += '</div>';
@@ -398,7 +396,7 @@ $(document).ready(function(){
         card += '<img class="activator" src="' + quinientos[i].imagenes[0] + '">';
         card += '</div>';
         card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ quinientos[i].id + '">' + quinientos[i].nombre + '</a>';
+        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ quinientos[i].id + '">' + quinientos[i].nombre + '</a>';
         card += '</div>';
         card += '</div>';
         card += '</li>';
@@ -432,7 +430,7 @@ $(document).ready(function(){
         card += '<img class="activator" src="' + mil[i].imagenes[0] + '">';
         card += '</div>';
         card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ mil[i].id + '">' + mil[i].nombre + '</a>';
+        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ mil[i].id + '">' + mil[i].nombre + '</a>';
         card += '</div>';
         card += '</div>';
         card += '</li>';
@@ -467,7 +465,7 @@ $(document).ready(function(){
         card += '<img class="activator" src="' + diezmil[i].imagenes[0] + '">';
         card += '</div>';
         card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ diezmil[i].id + '">' + diezmil[i].nombre + '</a>';
+        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ diezmil[i].id + '">' + diezmil[i].nombre + '</a>';
         card += '</div>';
         card += '</div>';
         card += '</li>';
@@ -501,7 +499,7 @@ $(document).ready(function(){
         card += '<img class="activator" src="' + cienmil[i].imagenes[0] + '">';
         card += '</div>';
         card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ cienmil[i].id + '">' + cienmil[i].nombre + '</a>';
+        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ cienmil[i].id + '">' + cienmil[i].nombre + '</a>';
         card += '</div>';
         card += '</div>';
         card += '</li>';
@@ -536,7 +534,7 @@ $(document).ready(function(){
         card += '<img class="activator" src="' + idea[i].imagenes[0] + '">';
         card += '</div>';
         card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ idea[i].id + '">' + idea[i].nombre + '</a>';
+        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ idea[i].id + '">' + idea[i].nombre + '</a>';
         card += '</div>';
         card += '</div>';
         card += '</li>';
@@ -570,7 +568,7 @@ $(document).ready(function(){
         card += '<img class="activator" src="' + construccion[i].imagenes[0] + '">';
         card += '</div>';
         card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ construccion[i].id + '">' + construccion[i].nombre + '</a>';
+        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ construccion[i].id + '">' + construccion[i].nombre + '</a>';
         card += '</div>';
         card += '</div>';
         card += '</li>';
@@ -605,7 +603,7 @@ $(document).ready(function(){
         card += '<img class="activator" src="' + terminado[i].imagenes[0] + '">';
         card += '</div>';
         card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger blue2 medio" href="#modal'+ terminado[i].id + '">' + terminado[i].nombre + '</a>';
+        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ terminado[i].id + '">' + terminado[i].nombre + '</a>';
         card += '</div>';
         card += '</div>';
         card += '</li>';
