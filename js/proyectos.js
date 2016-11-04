@@ -10,7 +10,7 @@ var proyectos = [
         escala:"500",
         estado:"terminado",
         imagenes:[
-            "https://www.dropbox.com/s/iy5pzgxbtv21amm/1.jpg?raw=1",
+            "https://www.dropbox.com/s/azwhrv264kl8as0/1.jpg?raw=1",
         ]
     },
     {
@@ -21,11 +21,11 @@ var proyectos = [
         escala:"530",
         estado:"idea",
         imagenes:[
-            "https://www.dropbox.com/s/p62xexbhi8hvpbj/1.jpg?raw=1",
-            "https://www.dropbox.com/s/lqlhzjmyrj2agvc/2.jpg?raw=1",
-            "https://www.dropbox.com/s/qer35sw4c5m69w1/3.jpg?raw=1",
-            "https://www.dropbox.com/s/bm1grgamrww0lny/4.jpg?raw=1",
-            "https://www.dropbox.com/s/7f9mo631d0crhg4/5.jpg?raw=1",
+            "https://www.dropbox.com/s/bh44r5b8yfdhi0l/1.jpg?raw=1",
+            "https://www.dropbox.com/s/yb5322bwxmxqcz6/2.jpg?raw=1",
+            "https://www.dropbox.com/s/i9mtlkp0wsxes6f/3.jpg?raw=1",
+            "https://www.dropbox.com/s/v03hs2g37vwgm6n/4.jpg?raw=1",
+            "https://www.dropbox.com/s/qc9wa1pwf5yvqpu/5.jpg?raw=1",
         ]
     },
     {
@@ -36,13 +36,13 @@ var proyectos = [
         escala:"400",
         estado:"construccion",
         imagenes:[
-            "https://www.dropbox.com/s/gsdys69gidr63zz/1.jpg?raw=1",
-            "https://www.dropbox.com/s/dn3rucszmsk9z5u/2.jpg?raw=1",
-            "https://www.dropbox.com/s/miw733ylk828l6x/3.jpg?raw=1",
-            "https://www.dropbox.com/s/jjt4eqcmrm7cd6y/4.jpg?raw=1",
-            "https://www.dropbox.com/s/cr86zuve5ulq859/5.jpg?raw=1",
-            "https://www.dropbox.com/s/iajt18u6rvspo5h/6.jpg?raw=1",
-            "https://www.dropbox.com/s/qkjr13rgudeojif/7.jpg?raw=1",
+            "https://www.dropbox.com/s/0i9keq5e4j4b4gq/1.jpg?raw=1",
+            "https://www.dropbox.com/s/iw1f7nc553hgare/2.jpg?raw=1",
+            "https://www.dropbox.com/s/epf9q6ufrl1irsu/3.jpg?raw=1",
+            "https://www.dropbox.com/s/x575j71jkxvp8e3/4.jpg?raw=1",
+            "https://www.dropbox.com/s/tk23sseoihb2z7u/5.jpg?raw=1",
+            "https://www.dropbox.com/s/c8x4tpauwbqs274/6.jpg?raw=1",
+            "https://www.dropbox.com/s/c8x4tpauwbqs274/6.jpg?raw=1",
         ]
     },
     {
@@ -69,24 +69,15 @@ var proyectos = [
         escala:"500",
         estado:"terminado",
         imagenes:[
-            "https://www.dropbox.com/s/6t8x9dwqsvgdp30/1.jpg?raw=1" +
-            "",
-            "https://www.dropbox.com/s/el2elpgarcqr3td/2.jpg?raw=1" +
-            "",
-            "https://www.dropbox.com/s/jasl0b9igv79mkj/3.jpg?raw=1" +
-            "",
-            "https://www.dropbox.com/s/ht8n2vf9ynfr5e9/4.jpg?raw=1" +
-            "",
-            "https://www.dropbox.com/s/rf501pajt82mvd8/5.jpg?raw=1" +
-            "",
-            "https://www.dropbox.com/s/kgy1iql4yom5bvh/6.jpg?raw=1" +
-            "",
-            "https://www.dropbox.com/s/zbyaivqz7j9y2wy/7.jpg?raw=1" +
-            "",
-            "https://www.dropbox.com/s/fxsvsh5px3c7mj0/8.jpg?raw=1" +
-            "",
-            "https://www.dropbox.com/s/96xfqlqy1nn4cf0/9.jpg?raw=1" +
-            "",
+            "https://www.dropbox.com/s/d9bnt3o5we6u38u/1.jpg?raw=1",
+            "https://www.dropbox.com/s/9ngpw2gvwfrkn23/2.jpg?raw=1",
+            "https://www.dropbox.com/s/72vcg4h62itnqu5/3.jpg?raw=1",
+            "https://www.dropbox.com/s/7ke60200b82p6mg/4.jpg?raw=1",
+            "https://www.dropbox.com/s/w5ugmpf315mwbyl/5.jpg?raw=1",
+            "https://www.dropbox.com/s/blz4ug5zs91nkvp/6.jpg?raw=1",
+            "https://www.dropbox.com/s/lbbvj3w4jdogq6o/7.jpg?raw=1",
+            "https://www.dropbox.com/s/g5gtlbsulfjsfie/8.jpg?raw=1",
+            "https://www.dropbox.com/s/l2j5y3jd5myugnn/9.jpg?raw=1",
         ]
     },
     {
@@ -97,10 +88,8 @@ var proyectos = [
         escala:"500",
         estado:"terminado",
         imagenes:[
-            "https://www.dropbox.com/s/sllmslcfo7v08w1/1.jpg?raw=1" +
-            "",
-            "https://www.dropbox.com/s/acyqropwtnwvww4/2.jpg?raw=1" +
-            "",
+            "https://www.dropbox.com/s/okhcf1wn8mxi7ry/1.jpg?raw=1",
+            "https://www.dropbox.com/s/hkw1f09byb0w2pq/2.jpg?raw=1",
         ]
     },
 
