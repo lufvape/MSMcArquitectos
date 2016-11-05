@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d7d9573-b498-49c5-a954-0b6765c2662a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize.css" afterPath="$PROJECT_DIR$/css/materialize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/todo.css" afterPath="$PROJECT_DIR$/css/todo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/contacto.html" afterPath="$PROJECT_DIR$/templates/contacto.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/equipo.html" afterPath="$PROJECT_DIR$/templates/equipo.html" />
     </list>
     <ignored path="MSMcArquitectos.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,51 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="equipo.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="equipo.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/equipo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.125">
-              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="todo.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/todo.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.980392">
-              <caret line="186" column="17" selection-start-line="186" selection-start-column="17" selection-end-line="186" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacto.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/contacto.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55468136">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="escala.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/escala.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.75">
-              <caret line="46" column="5" selection-start-line="16" selection-start-column="0" selection-end-line="46" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="materialize.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/materialize.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.529411">
-              <caret line="4095" column="18" selection-start-line="4095" selection-start-column="18" selection-end-line="4095" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.8111723">
+              <caret line="119" column="35" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -124,10 +81,10 @@
         <option value="$PROJECT_DIR$/templates/trabajos.html" />
         <option value="$PROJECT_DIR$/templates/proyectosu.html" />
         <option value="$PROJECT_DIR$/js/proyectos.js" />
-        <option value="$PROJECT_DIR$/templates/equipo.html" />
         <option value="$PROJECT_DIR$/css/todo.css" />
         <option value="$PROJECT_DIR$/css/materialize.css" />
         <option value="$PROJECT_DIR$/templates/contacto.html" />
+        <option value="$PROJECT_DIR$/templates/equipo.html" />
       </list>
     </option>
   </component>
@@ -722,14 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/equipo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.125">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/todo.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.980392">
@@ -758,6 +707,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55468136">
           <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/equipo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8111723">
+          <caret line="119" column="35" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
           <folding />
         </state>
       </provider>
