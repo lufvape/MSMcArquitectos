@@ -99,13 +99,6 @@ var equipamiento =[];
 var urbanismo =[];
 var casas =[];
 var edificios =[];
-var quinientos =[];
-var mil =[];
-var diezmil =[];
-var cienmil =[];
-var idea =[];
-var construccion =[];
-var terminado =[];
 
 
 function pcomer(){
@@ -164,79 +157,14 @@ function pedif(){
     return edificios;
 }
 
-function pqui() {
-    for (i = 0; i < proyectos.length; i++) {
-        if (proyectos[i].escala == "500") {
-            quinientos.push(proyectos[i]);
-        }
-    }
-    return quinientos;
-}
 
-function pmil(){
-    for(i=0; i<proyectos.length; i++){
-        if(proyectos[i].escala == "1000"){
-            mil.push(proyectos[i]);
-        }
-    }
-    return mil;
-}
-
-function pdiez(){
-    for(i=0; i<proyectos.length; i++){
-        if(proyectos[i].escala == "10000"){
-            diezmil.push(proyectos[i]);
-        }
-    }
-    return diezmil;
-}
-function pcien(){
-    for(i=0; i<proyectos.length; i++){
-        if(proyectos[i].escala == "100000"){
-            cienmil.push(proyectos[i]);
-        }
-    }
-    return cienmil;
-}
-
-function pidea(){
-    for(i=0; i<proyectos.length; i++){
-        if(proyectos[i].estado == "idea"){
-            idea.push(proyectos[i]);
-        }
-    }
-    return idea;
-}
-function pcons(){
-    for(i=0; i<proyectos.length; i++){
-        if(proyectos[i].estado == "construccion"){
-            construccion.push(proyectos[i]);
-        }
-    }
-    return construccion;
-}
-
-function pter(){
-    for(i=0; i<proyectos.length; i++){
-        if(proyectos[i].estado == "terminado"){
-            terminado.push(proyectos[i]);
-        }
-    }
-    return terminado;
-}
 
 $(document).ready(function(){
     pcomer();
     pcasas();
     purba();
     pedif();
-    pqui();
-    pcien();
-    pdiez();
-    pmil();
-    pidea();
-    pcons();
-    pter();
+
 
     for (i=0; i<equipamiento.length; i++){
         var card = "";
@@ -255,7 +183,7 @@ $(document).ready(function(){
         card += '<ul class="slides">';
         for (j=0; j<equipamiento[i].imagenes.length; j++){
             card += '<li>';
-            card += '<img src="' + equipamiento[i].imagenes[j] + '">';
+            card += '<img class ="responsive-img" src="' + equipamiento[i].imagenes[j] + '">';
             card += '</li>';
         }
         card += '</ul>';
@@ -288,7 +216,7 @@ $(document).ready(function(){
         card += '<ul class="slides">';
         for (j=0; j<urbanismo[i].imagenes.length; j++){
             card += '<li>';
-            card += '<img src="' + urbanismo[i].imagenes[j] + '">';
+            card += '<img class ="responsive-img" src="' + urbanismo[i].imagenes[j] + '">';
             card += '</li>';
         }
         card += '</ul>';
@@ -321,7 +249,7 @@ $(document).ready(function(){
         card += '<ul class="slides">';
         for (j=0; j<edificios[i].imagenes.length; j++){
             card += '<li>';
-            card += '<img src="' + edificios[i].imagenes[j] + '">';
+            card += '<img class ="responsive-img" src="' + edificios[i].imagenes[j] + '">';
             card += '</li>';
         }
         card += '</ul>';
@@ -353,7 +281,7 @@ $(document).ready(function(){
         card += '<ul class="slides">';
         for (j=0; j<casas[i].imagenes.length; j++){
             card += '<li>';
-            card += '<img src="' + casas[i].imagenes[j] + '">';
+            card += '<img class ="responsive-img" src="' + casas[i].imagenes[j] + '">';
             card += '</li>';
         }
         card += '</ul>';
@@ -369,246 +297,6 @@ $(document).ready(function(){
         $('.casas').append(card);
     }
 
-    for (i=0; i<quinientos.length; i++){
-        var card = "";
-        card += '<li>';
-        card += '<div class="card">';
-        card += '<div class="card-image">';
-        card += '<img class="activator" src="' + quinientos[i].imagenes[0] + '">';
-        card += '</div>';
-        card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ quinientos[i].id + '">' + quinientos[i].nombre + '</a>';
-        card += '</div>';
-        card += '</div>';
-        card += '</li>';
-
-        card += '<div id="modal' + quinientos[i].id + '" class="modal bottom-sheet">';
-        card += '<div class="modal-content">';
-        card += '<div class="slider fullscreen">';
-        card += '<ul class="slides">';
-        for (j=0; j<quinientos[i].imagenes.length; j++){
-            card += '<li>';
-            card += '<img src="' + quinientos[i].imagenes[j] + '">';
-            card += '</li>';
-        }
-        card += '</ul>';
-        card += '<p class="medio center-align derecha izquierda flow-text blue2">' + quinientos[i].descripcion +  '</p>';
-        card += '</div>';
-        card += '</div>';
-        card += '<div class="modal-footer">';
-        card += '<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat white-text vista"><i class="material-icons large">close</i></a>';
-        card += '</div>';
-        card += '</div>';
-
-        $('.quinientos').append(card);
-    }
-
-    for (i=0; i<mil.length; i++){
-        var card = "";
-        card += '<li>';
-        card += '<div class="card">';
-        card += '<div class="card-image">';
-        card += '<img class="activator" src="' + mil[i].imagenes[0] + '">';
-        card += '</div>';
-        card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ mil[i].id + '">' + mil[i].nombre + '</a>';
-        card += '</div>';
-        card += '</div>';
-        card += '</li>';
-
-        card += '<div id="modal' + mil[i].id + '" class="modal bottom-sheet">';
-        card += '<div class="modal-content">';
-        card += '<div class="slider fullscreen">';
-        card += '<ul class="slides">';
-        for (j=0; j<mil[i].imagenes.length; j++){
-            card += '<li>';
-            card += '<img src="' + mil[i].imagenes[j] + '">';
-            card += '</li>';
-        }
-        card += '</ul>';
-        card += '<p class="medio center-align derecha izquierda flow-text blue2">' + mil[i].descripcion +  '</p>';
-        card += '</div>';
-        card += '</div>';
-        card += '<div class="modal-footer">';
-        card += '<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat white-text vista"><i class="material-icons large">close</i></a>';
-        card += '</div>';
-        card += '</div>';
-
-
-        $('.mil').append(card);
-    }
-
-    for (i=0; i<diezmil.length; i++){
-        var card = "";
-        card += '<li>';
-        card += '<div class="card">';
-        card += '<div class="card-image">';
-        card += '<img class="activator" src="' + diezmil[i].imagenes[0] + '">';
-        card += '</div>';
-        card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ diezmil[i].id + '">' + diezmil[i].nombre + '</a>';
-        card += '</div>';
-        card += '</div>';
-        card += '</li>';
-
-        card += '<div id="modal' + diezmil[i].id + '" class="modal bottom-sheet">';
-        card += '<div class="modal-content">';
-        card += '<div class="slider fullscreen">';
-        card += '<ul class="slides">';
-        for (j=0; j<diezmil[i].imagenes.length; j++){
-            card += '<li>';
-            card += '<img src="' + diezmil[i].imagenes[j] + '">';
-            card += '</li>';
-        }
-        card += '</ul>';
-        card += '<p class="medio center-align derecha izquierda flow-text blue2">' + diezmil[i].descripcion +  '</p>';
-        card += '</div>';
-        card += '</div>';
-        card += '<div class="modal-footer">';
-        card += '<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat white-text vista"><i class="material-icons large">close</i></a>';
-        card += '</div>';
-        card += '</div>';
-
-        $('.diez').append(card);
-    }
-
-    for (i=0; i<cienmil.length; i++){
-        var card = "";
-        card += '<li>';
-        card += '<div class="card">';
-        card += '<div class="card-image">';
-        card += '<img class="activator" src="' + cienmil[i].imagenes[0] + '">';
-        card += '</div>';
-        card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ cienmil[i].id + '">' + cienmil[i].nombre + '</a>';
-        card += '</div>';
-        card += '</div>';
-        card += '</li>';
-
-        card += '<div id="modal' + cienmil[i].id + '" class="modal bottom-sheet">';
-        card += '<div class="modal-content">';
-        card += '<div class="slider fullscreen">';
-        card += '<ul class="slides">';
-        for (j=0; j<cienmil[i].imagenes.length; j++){
-            card += '<li>';
-            card += '<img src="' + cienmil[i].imagenes[j] + '">';
-            card += '</li>';
-        }
-        card += '</ul>';
-        card += '<p class="medio center-align derecha izquierda flow-text blue2">' + cienmil[i].descripcion +  '</p>';
-        card += '</div>';
-        card += '</div>';
-        card += '<div class="modal-footer">';
-        card += '<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat white-text vista"><i class="material-icons large">close</i></a>';
-        card += '</div>';
-        card += '</div>';
-
-
-        $('.cien').append(card);
-    }
-
-    for (i=0; i<idea.length; i++){
-        var card = "";
-        card += '<li>';
-        card += '<div class="card">';
-        card += '<div class="card-image">';
-        card += '<img class="activator" src="' + idea[i].imagenes[0] + '">';
-        card += '</div>';
-        card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ idea[i].id + '">' + idea[i].nombre + '</a>';
-        card += '</div>';
-        card += '</div>';
-        card += '</li>';
-
-        card += '<div id="modal' + idea[i].id + '" class="modal bottom-sheet">';
-        card += '<div class="modal-content">';
-        card += '<div class="slider fullscreen">';
-        card += '<ul class="slides">';
-        for (j=0; j<idea[i].imagenes.length; j++){
-            card += '<li>';
-            card += '<img src="' + idea[i].imagenes[j] + '">';
-            card += '</li>';
-        }
-        card += '</ul>';
-        card += '<p class="medio center-align derecha izquierda flow-text blue2">' + idea[i].descripcion +  '</p>';
-        card += '</div>';
-        card += '</div>';
-        card += '<div class="modal-footer">';
-        card += '<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat white-text vista"><i class="material-icons large">close</i></a>';
-        card += '</div>';
-        card += '</div>';
-
-        $('.idea').append(card);
-    }
-
-    for (i=0; i<construccion.length; i++){
-        var card = "";
-        card += '<li>';
-        card += '<div class="card">';
-        card += '<div class="card-image">';
-        card += '<img class="activator" src="' + construccion[i].imagenes[0] + '">';
-        card += '</div>';
-        card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ construccion[i].id + '">' + construccion[i].nombre + '</a>';
-        card += '</div>';
-        card += '</div>';
-        card += '</li>';
-
-        card += '<div id="modal' + construccion[i].id + '" class="modal bottom-sheet">';
-        card += '<div class="modal-content">';
-        card += '<div class="slider fullscreen">';
-        card += '<ul class="slides">';
-        for (j=0; j<construccion[i].imagenes.length; j++){
-            card += '<li>';
-            card += '<img src="' + construccion[i].imagenes[j] + '">';
-            card += '</li>';
-        }
-        card += '</ul>';
-        card += '<p class="medio center-align derecha izquierda flow-text blue2">' + construccion[i].descripcion +  '</p>';
-        card += '</div>';
-        card += '</div>';
-        card += '<div class="modal-footer">';
-        card += '<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat white-text vista"><i class="material-icons large">close</i></a>';
-        card += '</div>';
-        card += '</div>';
-
-
-        $('.construccion').append(card);
-    }
-
-    for (i=0; i<terminado.length; i++){
-        var card = "";
-        card += '<li>';
-        card += '<div class="card">';
-        card += '<div class="card-image">';
-        card += '<img class="activator" src="' + terminado[i].imagenes[0] + '">';
-        card += '</div>';
-        card += ' <div class="card-reveal">';
-        card += ' <a class="waves-effect waves-light modal-trigger txt-abajo blue2 medio" href="#modal'+ terminado[i].id + '">' + terminado[i].nombre + '</a>';
-        card += '</div>';
-        card += '</div>';
-        card += '</li>';
-
-        card += '<div id="modal' + terminado[i].id + '" class="modal bottom-sheet">';
-        card += '<div class="modal-content">';
-        card += '<div class="slider fullscreen">';
-        card += '<ul class="slides">';
-        for (j=0; j<terminado[i].imagenes.length; j++){
-            card += '<li>';
-            card += '<img src="' + terminado[i].imagenes[j] + '">';
-            card += '</li>';
-        }
-        card += '</ul>';
-        card += '<p class="medio center-align derecha izquierda flow-text blue2">' + terminado[i].descripcion +  '</p>';
-        card += '</div>';
-        card += '</div>';
-        card += '<div class="modal-footer">';
-        card += '<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat white-text vista"><i class="material-icons large">close</i></a>';
-        card += '</div>';
-        card += '</div>';
-
-        $('.terminado').append(card);
-    }
 
     $(".card").mouseenter(function(e){
         if ($(this).find('> .card-reveal').length) {
