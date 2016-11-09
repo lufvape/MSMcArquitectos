@@ -6,8 +6,8 @@ var proyectos = [
         id: "proyecto1",
         nombre:"Casa Osorio",
         descripcion:"Descripción1",
-        tipo:"urbanismo",
-        escala:"500",
+        tipo:"casa",
+        escala:"1000",
         estado:"terminado",
         imagenes:[
             "https://www.dropbox.com/s/azwhrv264kl8as0/1.jpg?raw=1",
@@ -18,14 +18,16 @@ var proyectos = [
         nombre:"Filadelfia",
         descripcion:" consectetur nulla libero eget turpis. Sed et malesuada nisl, ac rutrum lacus. Aenean sagittis, nisi non mollis luctus, velit ipsum imperdiet enim, eu pulvinar nisl tortor a est. Ut luctus et est a congue. Aenean sollicitudin ante sed nulla porttitor porta. Nunc bibendum tempor urna, eu dignissim m",
         tipo:"urbanismo",
-        escala:"530",
-        estado:"idea",
+        escala:"15000",
+        estado:"terminado",
         imagenes:[
             "https://www.dropbox.com/s/bh44r5b8yfdhi0l/1.jpg?raw=1",
             "https://www.dropbox.com/s/yb5322bwxmxqcz6/2.jpg?raw=1",
             "https://www.dropbox.com/s/i9mtlkp0wsxes6f/3.jpg?raw=1",
             "https://www.dropbox.com/s/v03hs2g37vwgm6n/4.jpg?raw=1",
             "https://www.dropbox.com/s/qc9wa1pwf5yvqpu/5.jpg?raw=1",
+            "https://www.dropbox.com/s/rs52drxtob12u68/6.png?raw=1",
+            "https://www.dropbox.com/s/sbirk6ascsbmn0o/7.png?raw=1"
         ]
     },
     {
@@ -34,7 +36,7 @@ var proyectos = [
         descripcion:"Descripción3",
         tipo:"urbanismo",
         escala:"400",
-        estado:"construccion",
+        estado:"terminado",
         imagenes:[
             "https://www.dropbox.com/s/0i9keq5e4j4b4gq/1.jpg?raw=1",
             "https://www.dropbox.com/s/iw1f7nc553hgare/2.jpg?raw=1",
