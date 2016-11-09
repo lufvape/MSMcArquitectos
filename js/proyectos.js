@@ -16,7 +16,7 @@ var proyectos = [
     {
         id: "proyecto2",
         nombre:"Filadelfia",
-        descripcion:" consectetur nulla libero eget turpis. Sed et malesuada nisl, ac rutrum lacus. Aenean sagittis, nisi non mollis luctus, velit ipsum imperdiet enim, eu pulvinar nisl tortor a est. Ut luctus et est a congue. Aenean sollicitudin ante sed nulla porttitor porta. Nunc bibendum tempor urna, eu dignissim m",
+        descripcion:"Conjunto Cerrado en medio de la naturaleza y a tres (3) minutos del Club Campestre de Ibagué. El conjunto consta de lotes esquineros y medianeros para construir casas como la presenta la constructora;  cada lote se entrega con planos en medio magnético para construir una casa tipo 1 ó Tipo 2 (Normas año 2007) de acuerdo a la ubicación de dicho lote cada propietario con el profesional que contraten para la construcción y diseño de la casa deben ajustarse a la normativa actual; las licencias y demás trámites y el total de los costos van por cuenta del comprador. Lotes con área privada individual desde 180 M2. EL CONJUNTO CONSTA DE: Cancha de tenis, Cancha de squash, Cuarto de basuras, Portería principal, Parqueadero de visitantes, Vías en adoquín y concreto, Piscina adultos y piscina niños, Jacuzzi, sauna, espacio para gimnasio, Amplias zonas verdes, juegos infantiles, Salón comunal de dos plantas, vestier y terraza, Conexión de alcantarillado y senderos peatonales, Alumbrado público decorativo con ductería subterránea, Planta de emergencia para alumbrado de las zonas comunes, Red de gas y listo para conexión a la red de gas natural por cuenta del cliente, Redes eléctricas, telefónicas, de citofonía son subterráneas, excepto la subestación. Ficha técnica: Período de Construcción:  2008 -2011 Tipo de Obra: Lotes para construir Casas Aisladas, Locales Comerciales Área Total Construida: 17.341.99 m2 Ubicación:  Sector Aparco Cra 20 Sur No. 107A  12, Ibagué, Colombia",
         tipo:"urbanismo",
         escala:"15000",
         estado:"terminado",
@@ -49,9 +49,9 @@ var proyectos = [
     },
     {
         id: "proyecto4",
-        nombre:"Golf club edificio",
+        nombre:"Golf club",
         descripcion:"Descripción1",
-        tipo:"casa",
+        tipo:"urbanismo",
         escala:"500",
         estado:"terminado",
         imagenes:[
@@ -67,9 +67,9 @@ var proyectos = [
         id: "proyecto5",
         nombre:"RFP Medical",
         descripcion:" consectetur nulla libero eget turpis. Sed et malesuada nisl, ac rutrum lacus. Aenean sagittis, nisi non mollis luctus, velit ipsum imperdiet enim, eu pulvinar nisl tortor a est. Ut luctus et est a congue. Aenean sollicitudin ante sed nulla porttitor porta. Nunc bibendum tempor urna, eu dignissim m",
-        tipo:"casa",
+        tipo:"equipamiento",
         escala:"500",
-        estado:"terminado",
+        estado:"idea",
         imagenes:[
             "https://www.dropbox.com/s/d9bnt3o5we6u38u/1.jpg?raw=1",
             "https://www.dropbox.com/s/9ngpw2gvwfrkn23/2.jpg?raw=1",
@@ -92,6 +92,49 @@ var proyectos = [
         imagenes:[
             "https://www.dropbox.com/s/okhcf1wn8mxi7ry/1.jpg?raw=1",
             "https://www.dropbox.com/s/hkw1f09byb0w2pq/2.jpg?raw=1",
+        ]
+    },
+    {
+        id: "proyecto7",
+        nombre:"Casa Alvarado",
+        descripcion:"Descripción3",
+        tipo:"casa",
+        escala:"500",
+        estado:"terminado",
+        imagenes:[
+            "https://www.dropbox.com/s/xgt0n1ah3drm4b5/1.bmp?raw=1",
+            "https://www.dropbox.com/s/4uw81m6mwk1fk7h/2.bmp?raw=1",
+            "https://www.dropbox.com/s/nhhq1xd5ks6stfg/3.bmp?raw=1",
+            "https://www.dropbox.com/s/3336fashbyvhjjz/4.bmp?raw=1",
+            "https://www.dropbox.com/s/ym4fjlpqrbng68r/5.bmp?raw=1",
+            "https://www.dropbox.com/s/ij9sdcg52otlybc/7.bmp?raw=1",
+        ]
+    },
+    {
+        id: "proyecto8",
+        nombre:"Plazoleta Daría Echandía",
+        descripcion:"Descripción3",
+        tipo:"urbanismo",
+        escala:"500",
+        estado:"terminado",
+        imagenes:[
+            "https://www.dropbox.com/s/m3oclncdpb8fb2p/Captura%20de%20pantalla%20%28202%29.png?raw=1",
+        ]
+    },
+    {
+        id: "proyecto9",
+        nombre:"Casa Fajardo",
+        descripcion:"Descripción3",
+        tipo:"casa",
+        escala:"500",
+        estado:"terminado",
+        imagenes:[
+            "https://www.dropbox.com/s/qfkgkb18ctne9xa/1.bmp?raw=1",
+            "https://www.dropbox.com/s/bf77s7bbk11626n/2.bmp?raw=1",
+            "https://www.dropbox.com/s/tj1pzmtcot0j0cd/lateral%20der%201.bmp?raw=1",
+            "https://www.dropbox.com/s/4orm7fds2ucoxa6/lateral%20izq%201.bmp?raw=1",
+            "https://www.dropbox.com/s/n7y0wpsifib4711/posterior%201.bmp?raw=1",
+            "https://www.dropbox.com/s/c8zs0ntqmenbff6/principal%201.bmp?raw=1",
         ]
     },
 
@@ -279,11 +322,11 @@ $(document).ready(function(){
 
         card += '<div id="modal' + casas[i].id + '" class="modal bottom-sheet">';
         card += '<div class="modal-content">';
-        card += '<div class="slider fullscreen">';
+        card += '<div class="slider">';
         card += '<ul class="slides">';
         for (j=0; j<casas[i].imagenes.length; j++){
             card += '<li>';
-            card += '<img class ="responsive-img" src="' + casas[i].imagenes[j] + '">';
+            card += '<img src="' + casas[i].imagenes[j] + '">';
             card += '</li>';
         }
         card += '</ul>';
