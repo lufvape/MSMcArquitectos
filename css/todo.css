@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6, p, .blue2, .blue-text{
 
 }
 
-img{
+.side-nav a img{
     max-width: 100%;
     height: auto;
     width: auto \9;
@@ -140,6 +140,17 @@ nav{
     background-color: #006992 !important;
 }
 
+.fullscreen{
+    height: 100% !important;
+}
+
+.slider .slides li img {
+    display: flex;
+    position: relative;
+    margin:auto auto auto auto;
+}
+
+
 #casas, #edificios, #urbanismo, #equipamiento{
     margin-top: 5%;
 }
@@ -169,6 +180,7 @@ nav{
 .page-footer{
     background-color: #10142d !important;
 }
+
 
 .interno{
     display: inline-block;

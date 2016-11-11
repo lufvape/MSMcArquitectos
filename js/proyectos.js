@@ -123,7 +123,7 @@ var proyectos = [
     },
     {
         id: "proyecto9",
-        nombre:"Casa Fajardo",
+        nombre:"Casa Fajardo(Golf Club)",
         descripcion:"Descripción3",
         tipo:"casa",
         escala:"500",
@@ -137,6 +137,163 @@ var proyectos = [
             "https://www.dropbox.com/s/c8zs0ntqmenbff6/principal%201.bmp?raw=1",
         ]
     },
+    {
+        id: "proyecto10",
+        nombre:"Arte 6",
+        descripcion:"Descripción3",
+        tipo:"edificio",
+        escala:"500",
+        estado:"construcción",
+        imagenes:[
+            "https://www.dropbox.com/s/nsatarqjhftkx2t/5.png?raw=1" +
+            "",
+            "https://www.dropbox.com/s/1gbgsplrtrfk5zv/DUPLEX%20TIPO%201.png?raw=1" +
+            "",
+            "https://www.dropbox.com/s/julju8q4kww9uzu/DUPLEX%20TIPO%202.png?raw=1" +
+            "",
+            "https://www.dropbox.com/s/yf5e9v9rvb7xf01/DUPLEX%20TIPO%203.png?raw=1" +
+            "",
+            "https://www.dropbox.com/s/lkbbc7ec6sxhaks/portada%20brochure%20completo%204.png?raw=1" +
+            "",
+            "https://www.dropbox.com/s/s3my5rx89ct4uf6/portada%20brochure%20completo%205.png?raw=1" +
+            "",
+            "https://www.dropbox.com/s/8mvdtu4r7it7ast/portada%20brochure%20completo%206.png?raw=1" +
+            "",
+            "https://www.dropbox.com/s/kobxwhf5v9s0n0o/portada%20brochure%20completo%207.png?raw=1" +
+            "",
+            "https://www.dropbox.com/s/3naa3mscw9t6y73/portada%20brochure%20completo.png?raw=1" +
+            "",
+            "https://www.dropbox.com/s/m5q7xzqnw0nebgh/SIMPLEX%20TIPO%201.png?raw=1" +
+            "",
+            "https://www.dropbox.com/s/iit6e7kmar2md95/SIMPLEX%20TIPO%202.png?raw=1" +
+            "",
+        ]
+    },
+    {
+        id: "proyecto11",
+        nombre:"Casa Romero",
+        descripcion:"Descripción3",
+        tipo:"casa",
+        escala:"500",
+        estado:"terminado",
+        imagenes:[
+            "https://www.dropbox.com/s/zf9200i0qh9u781/3.png?raw=1" +
+            "",
+            "https://www.dropbox.com/s/mpknaa3mbyfg6a2/4.png?raw=1" +
+            "",
+            "https://www.dropbox.com/s/yaxc8nj9fwrrwae/5.png?raw=1" +
+            "",
+            "https://www.dropbox.com/s/hkqakwe5v5g9lwy/7.png?raw=1" +
+            "",
+            "https://www.dropbox.com/s/yhl8wfjscdoz6lg/8.jpg?raw=1" +
+            "",
+            "https://www.dropbox.com/s/jhz17gz1hjmabs6/9.png?raw=1" +
+            "",
+            "https://www.dropbox.com/s/0btj8hnfsxby59u/10.jpg?raw=1" +
+            "",
+        ]
+    },
+    {
+        id: "proyecto12",
+        nombre:"Casa Fajardo(Monteverde)",
+        descripcion:"Descripción3",
+        tipo:"casa",
+        escala:"500",
+        estado:"terminado",
+        imagenes:[
+            "https://www.dropbox.com/s/cd5ovq7r888aq5k/1.bmp?raw=1" +
+            "",
+            "https://www.dropbox.com/s/6hgv3aqvova8oc1/2.bmp?raw=1" +
+            "",
+            "https://www.dropbox.com/s/s3x8gn57lz7q218/3.bmp?raw=1" +
+            "",
+            "https://www.dropbox.com/s/0x7yekzcclfw566/4.jpg?raw=1" +
+            "",
+            "https://www.dropbox.com/s/pkovjolz1f3osj4/5.jpg?raw=1" +
+            "",
+            "https://www.dropbox.com/s/fgc1h2zt9ft2gd3/6.jpg?raw=1" +
+            "",
+            "https://www.dropbox.com/s/ikqtlz3glsy87b0/7.jpg?raw=1" +
+            "",
+            "https://www.dropbox.com/s/b10m7hklh1yfyd5/8.tif?raw=1" +
+            "",
+        ]
+    },
+    {
+        id: "proyecto13",
+        nombre:"Casa Santofimio",
+        descripcion:"Descripción3",
+        tipo:"casa",
+        escala:"500",
+        estado:"terminado",
+        imagenes:[
+            "https://www.dropbox.com/s/jikophk1f5eixkk/1.bmp?raw=1" +
+            "",
+            "https://www.dropbox.com/s/7uynmkoy1kmqr4k/2.bmp?raw=1" +
+            "",
+            "https://www.dropbox.com/s/sw42squirg6fprg/3.bmp?raw=1" +
+            "",
+        ]
+    },
+    {
+        id: "proyecto14",
+        nombre:"Coltolima",
+        descripcion:"Descripción3",
+        tipo:"casa",
+        escala:"500",
+        estado:"terminado",
+        imagenes:[
+            "https://www.dropbox.com/s/cblverf0s14bn01/RENDER%201%20COLTOLIMA.jpg?raw=1" +
+            "",
+            "https://www.dropbox.com/s/94z4k5zeebx91tu/RENDER%203%20COLTOLIMA.jpg?raw=1" +
+            "",
+            "https://www.dropbox.com/s/1fytxcuzyxexvud/RENDER%204%20COLTOLIMA.jpg?raw=1" +
+            "",
+            "https://www.dropbox.com/s/yt3imxje59ruxxf/RENDER%207%20COLTOLIMA.jpg?raw=1" +
+            "",
+            "https://www.dropbox.com/s/58mdotvw9ln85pg/RENDER_6_COLTOLIMA.jpg?raw=1" +
+            "",
+        ]
+    },
+    {
+        id: "proyecto15",
+        nombre:"Florida II",
+        descripcion:"Descripción3",
+        tipo:"casa",
+        escala:"500",
+        estado:"terminado",
+        imagenes:[
+            "https://www.dropbox.com/s/nce4nrskunvt7m3/1.png?raw=1" +
+            "",
+            "https://www.dropbox.com/s/5mkrnxvg037zct3/2014-10-16_11-08-08.jpg?raw=1" +
+            "",
+            "https://www.dropbox.com/s/6d5qmy0lyjdgtjy/img_2.jpg?raw=1" +
+            "",
+        ]
+    },
+    {
+        id: "proyecto16",
+        nombre:"Dulima",
+        descripcion:"Descripción3",
+        tipo:"casa",
+        escala:"500",
+        estado:"terminado",
+        imagenes:[
+            "https://www.dropbox.com/s/5pjwkgzyqu7wplu/1.jpg?raw=1" +
+            "",
+            "https://www.dropbox.com/s/ffpb0ipgy2doddl/2.jpg?raw=1" +
+            "",
+            "https://www.dropbox.com/s/z1x9i27i4yzw259/3.jpg?raw=1" +
+            "",
+            "https://www.dropbox.com/s/7130g7x36zo17y7/4.jpg?raw=1" +
+            "",
+            "https://www.dropbox.com/s/y6j4zd04daxhovr/5.jpg?raw=1" +
+            "",
+            "https://www.dropbox.com/s/lbish9v5rdjnvw8/6.jpg?raw=1" +
+            "",
+        ]
+    },
+
 
 ]
 
@@ -224,7 +381,7 @@ $(document).ready(function(){
 
         card += '<div id="modal' + equipamiento[i].id + '" class="modal bottom-sheet">';
         card += '<div class="modal-content">';
-        card += '<div class="slider fullscreen">';
+        card += '<div class="slider">';
         card += '<ul class="slides">';
         for (j=0; j<equipamiento[i].imagenes.length; j++){
             card += '<li>';
@@ -261,7 +418,7 @@ $(document).ready(function(){
         card += '<ul class="slides">';
         for (j=0; j<urbanismo[i].imagenes.length; j++){
             card += '<li>';
-            card += '<img class ="responsive-img" src="' + urbanismo[i].imagenes[j] + '">';
+            card += '<img src="' + urbanismo[i].imagenes[j] + '">';
             card += '</li>';
         }
         card += '</ul>';
