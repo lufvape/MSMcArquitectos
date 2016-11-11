@@ -239,7 +239,7 @@ var proyectos = [
         id: "proyecto14",
         nombre:"Coltolima",
         descripcion:"Descripción3",
-        tipo:"casa",
+        tipo:"equipamiento",
         escala:"500",
         estado:"terminado",
         imagenes:[
@@ -259,7 +259,7 @@ var proyectos = [
         id: "proyecto15",
         nombre:"Florida II",
         descripcion:"Descripción3",
-        tipo:"casa",
+        tipo:"urbanismo",
         escala:"500",
         estado:"terminado",
         imagenes:[
@@ -275,7 +275,7 @@ var proyectos = [
         id: "proyecto16",
         nombre:"Dulima",
         descripcion:"Descripción3",
-        tipo:"casa",
+        tipo:"equipamiento",
         escala:"500",
         estado:"terminado",
         imagenes:[
