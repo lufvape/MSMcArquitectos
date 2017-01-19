@@ -12,7 +12,7 @@
     height: auto;
 }
 .logo2{
-    position: relative;
+    position: relative !important;
     margin:auto auto auto auto;
     max-width: 25%;
     height: auto;
