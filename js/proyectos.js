@@ -381,7 +381,7 @@ $(document).ready(function(){
 
         card += '<div id="modal' + equipamiento[i].id + '" class="modal bottom-sheet">';
         card += '<div class="modal-content">';
-        card += '<div class="slider">';
+        card += '<div class="slider fullscreen">';
         card += '<ul class="slides">';
         for (j=0; j<equipamiento[i].imagenes.length; j++){
             card += '<li>';
@@ -479,11 +479,11 @@ $(document).ready(function(){
 
         card += '<div id="modal' + casas[i].id + '" class="modal bottom-sheet">';
         card += '<div class="modal-content">';
-        card += '<div class="slider">';
+        card += '<div class="slider fullscreen">';
         card += '<ul class="slides">';
         for (j=0; j<casas[i].imagenes.length; j++){
             card += '<li>';
-            card += '<img src="' + casas[i].imagenes[j] + '">';
+            card += '<img class ="responsive-img" src="' + casas[i].imagenes[j] + '">';
             card += '</li>';
         }
         card += '</ul>';
